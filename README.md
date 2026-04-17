@@ -7,7 +7,7 @@
 | Economic Policy Institute (EPI) | Family Budget Calculator (2026) | 3,143 U.S. counties × 10 family types |
 | Bureau of Labor Statistics (BLS) | Occupational Employment & Wage Statistics | 30+ occupations, state & national |
 
-**Cost Components Modeled (EPI):**
+**Cost Components Modeled (EPI):**  
 Housing · Food · Transportation · Healthcare · Childcare · Taxes · Other Necessities  
 
 ---
@@ -21,66 +21,40 @@ Housing · Food · Transportation · Healthcare · Childcare · Taxes · Other N
 
 ---
 
-## Headline Finding
+## Overview
 
-Across a large portion of U.S. counties, the affordability ratio exceeds **1.0** — meaning **estimated living costs are higher than what families earn**.
+This project examines affordability across the United States by comparing estimated living costs with observed income data. Using the Economic Policy Institute’s Family Budget Calculator and wage data from the Bureau of Labor Statistics, we construct an affordability ratio to evaluate how sustainable everyday expenses are relative to earnings.
 
-At face value:
-
-> Many households cannot afford the cost of living.
-
-But that conclusion deserves a second look.
+Across many counties, this ratio exceeds 1.0, indicating that estimated costs are higher than median income levels. At a surface level, this suggests that a large share of households would struggle to meet basic expenses under these assumptions.
 
 ---
 
-## The Gap Behind the Numbers
+## Interpreting the Gap
 
-This analysis combines two fundamentally different perspectives:
+However, this result is shaped by how the data is constructed. The EPI dataset represents a modeled estimate of what families need to spend to maintain a basic standard of living, while the BLS data reflects actual earnings in the labor market. These two perspectives do not measure the same thing, and the difference between them is central to understanding the results.
 
-- **EPI Data** → What families *should* spend to meet a basic standard of living  
-- **BLS Data** → What people *actually* earn in the labor market  
-
-That difference is not small, it is the entire story.
-
-The result is not just a measurement of affordability, but a **gap between economic reality and economic expectations**.
+Rather than treating the affordability ratio as a direct measure of financial failure, it is more useful to interpret it as an indicator of **tension between expected costs and observed income**. In other words, it highlights where the cost of maintaining a baseline standard of living may exceed what typical wages support.
 
 ---
 
-## If the Math Doesn’t Work, Why Does Life Continue?
+## What the Results Suggest
 
-Recent spending data suggests Americans are already operating under pressure. The average household spent over $78,000 annually, even as income struggles to keep pace :contentReference[oaicite:0]{index=0}.
+The presence of many counties with ratios above 1.0 does not necessarily imply that households are consistently overspending. Instead, it points toward a set of adaptations that are common in practice:
 
-What about affordability ratios above 1.0?
+- Households may reduce spending below modeled “recommended” levels  
+- Multiple earners within a household may offset lower individual wages  
+- Debt, savings, or informal support systems may bridge short-term gaps  
+- Cost structures—especially housing, transportation, and healthcare—place disproportionate pressure on budgets  
 
-The answer is not that people are ignoring the math — it's that they are adapting to it.
-
----
-
-## What the Ratio Actually Reflects
-
-An affordability ratio above 1.0 does not mean every household is failing. It suggests:
-
-- Families are **cutting back below “recommended” living standards**
-- Households rely on **dual incomes, debt, or savings buffers**
-- Essential costs like **housing, healthcare, and transportation** dominate budgets
-- “Affordable living” may be defined differently in practice than in models
-
-In short, the ratio captures **pressure**, not collapse.
+These dynamics suggest that the affordability ratio captures **financial pressure and constraint**, rather than a literal inability to function economically.
 
 ---
 
-## Why This Matters
+## Broader Implications
 
-This project is not just about identifying expensive places to live.
+The analysis highlights a structural issue: the estimated cost of maintaining a basic standard of living is not always aligned with typical income levels. This misalignment raises important questions about how affordability should be defined and measured.
 
-It highlights a broader issue:
-
-> The cost of maintaining a baseline standard of living is increasingly disconnected from typical earnings.
-
-That disconnect raises important questions:
-- What does “affordable” actually mean today?
-- Are cost models too high, or wages too low?
-- How are households absorbing the difference?
+It also suggests that traditional indicators of economic health may not fully capture the lived experience of households, particularly in regions where essential costs have risen faster than wages. Understanding this gap is critical for interpreting both policy discussions and individual financial behavior.
 
 ---
 
@@ -90,3 +64,4 @@ That disconnect raises important questions:
 - `data_2026.xlsx` — compiled dataset  
 - `WS_img1.png`, `WS_img2.png`, `WS_img3.png` — visual findings  
 
+---
